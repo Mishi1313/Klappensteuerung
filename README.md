@@ -37,6 +37,7 @@ Wird "C" empfangen, setzt sicher der PIN 8 auf LOW und schaltet somit das Relaus
 Ist das Relais aktiv, wird auf der anderen Seite ein 12V Kontakt geschlossen und ein Magnetventil wird somit aktiv, welches für die Weiterleitung des Unterdrucks zur Unterduckdrossel zuständig ist.
 Aktiv wird die Klappe geöffnet, ist diese jedoch nicht aktiv schliesst sie sich wieder.
 
+
 NOTFALL BUTTONS:
 
 Ist eine Verbindung durch welch au immer kommenden äussereneinflüssen nicht möglich, sind zwei Buttons an einer Platine noch installiert.
@@ -45,3 +46,15 @@ Ein Button schliesst die Klappe, der andere öffnet diese wieder.
 Button Open auf PIN 7 setzt den PIN 9 auf "HIGH".
 Button Close auf PIN 6 setzt den PIN 9 auf "LOW".
 So kann von Hand die Klappe notfalls geöffnet und geschlossen werden.
+
+
+MIT App Inventor:
+https://ai2.appinventor.mit.edu/#5905756833513472
+
+Mit hilfe diese Links wird man zur erstellten APP geführt. In der ersten Übersicht ersichtlich ist das Layoutdesign der Benutzeroberflöche.
+Drückt man auf Blocks oben rechts, erscheint die ganze Logik hinter des Layouts.
+
+Jeder Button, Textfeld, Liste hat einen identifizierten Namen. Mit diesem können Funktionen welche intern schon zur Verfügung stehen benutzt werden.
+Auf der linken Seite sind Übertitel der möglichen Funktionen aufgelistet von Mathe, Logik  bis zu Kontrolle.
+
+Beim Designer auf der linken Seite werden mögliche leere Funktionen wie Buttons etc auf den Bildschirm gezogen. Für die BLE Funktion musste ein extra heruntergeladen werden, ersichtlich ist dies unter Extension.
